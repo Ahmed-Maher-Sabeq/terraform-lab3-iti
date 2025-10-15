@@ -224,55 +224,10 @@ terraform destroy
 
 **Warning**: This will permanently delete all infrastructure resources.
 
-## Screenshots
+## Architecture Diagram
 
-### Infrastructure Overview
-![Infrastructure Architecture](images/Screenshot%20(592).png)
-*Complete AWS infrastructure showing VPC, subnets, load balancers, and EC2 instances*
-
-### VPC and Network Configuration
-![VPC Configuration](images/Screenshot%20(593).png)
-*VPC setup with public and private subnets across multiple availability zones*
-
-### Load Balancer Configuration
-![Application Load Balancers](images/Screenshot%20(594).png)
-*Public and private Application Load Balancers with target groups*
-
-### EC2 Instances
-![EC2 Instances](images/Screenshot%20(595).png)
-*Proxy and backend EC2 instances running across different subnets*
-
-### Security Groups
-![Security Groups](images/Screenshot%20(596).png)
-*Security group configurations for different tiers of the infrastructure*
-
-### Terraform Deployment
-![Terraform Apply](images/Screenshot%20(597).png)
-*Terraform deployment process and resource creation*
-
-### Application Testing
-![Application Response](images/Screenshot%20(598).png)
-*Testing the deployed application through the public load balancer*
-
-### Resource Monitoring
-![AWS Console Overview](images/Screenshot%20(599).png)
-*AWS Console showing deployed resources and their status*
-
-### Network Topology
-![Network Diagram](images/Screenshot%20(600).png)
-*Network topology and routing configuration*
-
-### Load Balancer Health Checks
-![Health Check Status](images/Screenshot%20(602).png)
-*Target group health checks and instance status*
-
-### Final Infrastructure State
-![Complete Deployment](images/Screenshot%20(603).png)
-*Final state of the deployed multi-tier infrastructure*
-
-### Additional Configuration
-![Additional Setup](images/Untitled.png)
-*Additional configuration details and settings*
+![Multi-Tier Proxy Architecture](images/Untitled.png)
+*Complete architecture diagram showing the multi-tier proxy infrastructure with VPC, subnets, load balancers, EC2 instances, and traffic flow*
 
 ## Contributing
 
