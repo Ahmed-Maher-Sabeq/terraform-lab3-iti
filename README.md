@@ -241,9 +241,6 @@ terraform destroy
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Support
+## Additional Documentation
 
-For issues and questions:
-- Create an issue in the repository
-- Check AWS documentation for service-specific problems
-- Review Terraform documentation for configuration issues
+For detailed screenshots and step-by-step deployment process, please refer to `terraform_lab3_screenshots.pdf` included in this repository.
