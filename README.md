@@ -2,6 +2,11 @@
 
 A comprehensive AWS infrastructure deployment using Terraform that creates a scalable, multi-tier architecture with proxy servers, load balancers, and backend instances across multiple availability zones.
 
+## Architecture Diagram
+
+![Multi-Tier Proxy Architecture](images/Untitled.png)
+*Complete architecture diagram showing the multi-tier proxy infrastructure with VPC, subnets, load balancers, EC2 instances, and traffic flow*
+
 ## Architecture Overview
 
 This project deploys a robust multi-tier infrastructure on AWS featuring:
@@ -223,11 +228,6 @@ terraform destroy
 ```
 
 **Warning**: This will permanently delete all infrastructure resources.
-
-## Architecture Diagram
-
-![Multi-Tier Proxy Architecture](images/Untitled.png)
-*Complete architecture diagram showing the multi-tier proxy infrastructure with VPC, subnets, load balancers, EC2 instances, and traffic flow*
 
 ## Contributing
 
